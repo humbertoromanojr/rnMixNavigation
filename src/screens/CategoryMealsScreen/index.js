@@ -4,12 +4,12 @@ import {View, Text} from 'react-native';
 
 import styles from './styles';
 
-const Filters = props => {
+const CategoryMealsScreen = props => {
   return (
     <View style={styles.container}>
-      <Text>Filters page</Text>
+      <Text>Category Meals page</Text>
     </View>
   );
 };
 
-export default Filters;
+export default CategoryMealsScreen;

@@ -4,12 +4,12 @@ import {View, Text} from 'react-native';
 
 import styles from './styles';
 
-const Favorites = props => {
+const FiltersScreen = props => {
   return (
     <View style={styles.container}>
-      <Text>Favorites page</Text>
+      <Text>Filters page</Text>
     </View>
   );
 };
 
-export default Favorites;
+export default FiltersScreen;
